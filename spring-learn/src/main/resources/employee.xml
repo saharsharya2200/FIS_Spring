@@ -45,4 +45,16 @@ https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	</bean>
 
+	<bean id="dao" class="com.fis.springlearn.Dao.EmployeeDao">
+
+	</bean>
+	<bean id="service" class="com.fis.springlearn.service.EmployeeServices">
+		<property name="employeeDao" ref="dao"></property>
+	</bean>
+	<bean id="controller"
+		class="com.fis.springlearn.controller.EmployeeController">
+		<property name="employeeservice" ref="service"></property>
+	</bean>
+	
+
 </beans>
