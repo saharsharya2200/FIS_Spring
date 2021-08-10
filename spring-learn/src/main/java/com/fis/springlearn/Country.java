@@ -4,8 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Country {
-		String name;
-		String code;
+		private String name;
+		private String code;
 		private static final Logger LOGGER = LoggerFactory.getLogger(Country.class);
 
 		public Country() {
