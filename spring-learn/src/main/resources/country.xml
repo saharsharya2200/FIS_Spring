@@ -4,16 +4,17 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
-	<bean id="dateFormat" class="java.text.SimpleDateFormat">
-		<constructor-arg value="dd/MM/yyyy" />
-	</bean>
-	<bean id="dateFormat1" class="java.text.SimpleDateFormat">
-		<constructor-arg value="MM/dd/yyyy" />
-	</bean>
-	<bean id="dateFormat2" class="java.text.SimpleDateFormat">
-	<constructor-arg value="MM/dd/yyyy" />
+   
+	<bean id="country" class="com.fis.springlearn.Country">
+		<property name="code" value="IN" />
+		<property name="name" value="India" />
 	</bean>
 	
+		<bean id="country2" class="com.fis.springlearn.Country">
+		<property name="code" value="DE" />
+		<property name="name" value="Germany" />
+	</bean>
 	
+
 
 </beans>
