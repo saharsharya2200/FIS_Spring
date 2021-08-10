@@ -3,18 +3,18 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-        
-   
-	<bean id="country" class="com.fis.springlearn.Country">
+
+
+	<bean id="country" class="com.fis.springlearn.Country" scope = "prototype">
 		<property name="code" value="IN" />
 		<property name="name" value="India" />
 	</bean>
-	
-		<bean id="country2" class="com.fis.springlearn.Country">
+
+	<bean id="country2" class="com.fis.springlearn.Country">
 		<property name="code" value="DE" />
 		<property name="name" value="Germany" />
 	</bean>
-	
 
+	
 
 </beans>

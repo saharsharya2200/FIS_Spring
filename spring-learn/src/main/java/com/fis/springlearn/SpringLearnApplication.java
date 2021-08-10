@@ -21,6 +21,12 @@ public class SpringLearnApplication {
 		displayCountry();
 	}
 	
+	/*static void displayCountries() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+		Country countryL = context.getBean("countryList", Country.class);
+		
+	}*/
+	
 	static void displayCountry() {
 		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
 		Country country = context.getBean("country", Country.class);
