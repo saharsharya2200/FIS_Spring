@@ -23,10 +23,10 @@ public class SpringLearnApplication {
 	
 	static void displayCountry() {
 		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
-		Country country = (Country) context.getBean("country", Country.class);
+		Country country = context.getBean("country", Country.class);
 		LOGGER.debug("Country : {}", country.toString());
 		
-		Country country2 = (Country) context.getBean("country2", Country.class);
+		Country country2 = context.getBean("country2", Country.class);
 		LOGGER.debug("Country : {}", country2.toString());
 	}
 
