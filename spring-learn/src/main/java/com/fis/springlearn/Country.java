@@ -1,15 +1,17 @@
 package com.fis.springlearn;
+import java.util.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Country {
+		//private ArrayList<String>countryList;
 		private String name;
 		private String code;
 		private static final Logger LOGGER = LoggerFactory.getLogger(Country.class);
 
 		public Country() {
-			LOGGER.debug("Inside Country Constructor");
+			//LOGGER.debug("Inside Country Constructor");
 		}
 
 		public String getName() {

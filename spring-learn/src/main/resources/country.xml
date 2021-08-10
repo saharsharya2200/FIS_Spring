@@ -14,7 +14,27 @@
 		<property name="code" value="DE" />
 		<property name="name" value="Germany" />
 	</bean>
-
 	
+	<bean id="country3" class="com.fis.springlearn.Country">
+		<property name="code" value="JP" />
+		<property name="name" value="Japan" />
+	</bean>
+
+	<bean id="country4" class="com.fis.springlearn.Country">
+		<property name="code" value="US" />
+		<property name="name" value="United States" />
+	</bean>
+	
+
+	<bean id="countryList" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<ref bean="country"></ref>
+				<ref bean="country2"></ref>
+				<ref bean="country3"></ref>
+				<ref bean="country4"></ref>
+			</list>
+		</constructor-arg>
+	</bean>
 
 </beans>
