@@ -14,6 +14,8 @@ public class Employee {
 	  private String name;
 	  
 	  private String emailId;
+	  
+	  private double salary;
 
 	public Integer getId() {
 		return id;
@@ -40,10 +42,20 @@ public class Employee {
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
+	
+	
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", emailId=" + emailId + "]";
+		return "Employee [id=" + id + ", name=" + name + ", emailId=" + emailId + ", salary=" + salary + "]";
 	}
 	  
 	  
