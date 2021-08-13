@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="spring-jdbc/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-jdbc/src/main/java"/>
+	<classpathentry kind="src" path="spring-jdbc/src/test/java"/>
+	<classpathentry kind="src" path="spring-jpa/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-jpa/src/main/java"/>
+	<classpathentry kind="src" path="spring-jpa/src/test/java"/>
+	<classpathentry kind="src" path="spring-learn/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-learn/src/main/java"/>
+	<classpathentry kind="src" path="spring-learn/src/test/java"/>
+	<classpathentry kind="src" path="spring-security/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-security/src/main/java"/>
+	<classpathentry kind="src" path="spring-security/src/test/java"/>
+	<classpathentry kind="src" path="spring-testing/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-testing/src/main/java"/>
+	<classpathentry kind="src" path="spring-testing/src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="spring-testing/target/test-classes"/>
+</classpath>
