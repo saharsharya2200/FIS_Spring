@@ -55,7 +55,7 @@ public class Person {
 
 		List<Person> roster = new ArrayList<>();
 		roster.add(new Person("RandomName", LocalDate.of(1999, 4, 30), Person.Sex.MALE, "RandomName1@Random.com"));
-		roster.add(new Person("RandomName2", LocalDate.of(1996, 3, 22), Person.Sex.FEMALE, "RandomName2@Random.com"));
+		roster.add(new Person("RandomName2", LocalDate.of(1942, 3, 22), Person.Sex.FEMALE, "RandomName2@Random.com"));
 		roster.add(new Person("RandomeName3", LocalDate.of(2019, 2, 3), Person.Sex.MALE, "RandomName3@Random.com"));
 		
 
